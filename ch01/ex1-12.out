@@ -1,0 +1,5 @@
+Listing 1.12  Running go test
+
+$ go test
+PASS
+ok   go-in-practice/chapter1/hello      0.012s

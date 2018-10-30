@@ -1,0 +1,6 @@
+Listing 1.14  Testing with code coverage
+
+$ go test -cover
+PASS
+Coverage: 33.3% of statements
+ok    go-in-practice/chapter1/hello        0.011s

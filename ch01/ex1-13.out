@@ -1,0 +1,8 @@
+Listing 1.13  Running go test failure
+
+$ go test
+--- FAIL: TestName (0.00 seconds)
+       hello_test.go:9: Response from getName is unexpected value
+FAIL
+exit status 1
+FAIL   go-in-practice/chapter1/hello             0.010s

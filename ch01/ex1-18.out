@@ -1,0 +1,4 @@
+Listing 1.18  Building inigo.go
+
+$ go build inigo.go
+$ ./inigo

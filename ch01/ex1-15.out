@@ -1,0 +1,15 @@
+Listing 1.15  Workspace layout
+
+$GOPATH/
+	src/
+		github.com/
+			Masterminds/
+				cookoo/
+				glide/
+	bin/
+		glide
+	pkg/
+		darwin_amd64/
+github.com/
+	Masterminds/
+		coocoo.a
