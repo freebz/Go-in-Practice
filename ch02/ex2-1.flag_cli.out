@@ -1,0 +1,8 @@
+Listing 2.1  Hello World CLI using flag package
+
+$ flag_cli
+Hello World!
+$ flag_cli -s -name Buttercup
+Hola Buttercup!
+$ flag_cli --spanish -name Buttercup
+Hola Buttercup!

@@ -1,0 +1,3 @@
+Listing 2.4  flag package flag parsing
+
+$ flag_based_cli -s -n Buttercup foo -bar
