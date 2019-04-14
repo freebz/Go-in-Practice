@@ -1,0 +1,2 @@
+example 2019/03/06 09:57:29 ex5-2.go:16: This is a regular message.
+example 2019/03/06 09:57:29 ex5-2.go:17: This is a fatal error.
