@@ -1,0 +1,27 @@
+// Listing 6.4  Caching a parsed template: cache_template.go
+
+package main
+
+import (
+	"html/template"
+	"net/http"
+)
+
+var t = template.Must(template.ParseFiles("templates/simple.html"))
+
+type Page struct {
+	Title, Content string
+}
+
+func displayPage(w http.ResponseWriter, r *http.Request) {
+	p := &Page{
+		Title:   "An Example",
+		Content: "Have fun stormin' da castle.",
+	}
+	t.Execute(w, p)
+}
+
+func main() {
+	http.HandleFunc("/", displayPage)
+	http.ListenAndServe(":8080", nil)
+}

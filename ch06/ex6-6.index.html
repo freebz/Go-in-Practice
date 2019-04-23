@@ -1,0 +1,10 @@
+<!-- Listing 6.6  Index template including head template: index.html -->
+
+<!DOCTYPE HTML>
+<html>
+  {{template "head.html" .}}
+  <body>
+    <h1>{{.Title}}</h1>
+    <p>{{.Content}}</p>
+  </body>
+</html>

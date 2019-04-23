@@ -1,0 +1,9 @@
+<!-- Listing 6.10  Inheriting required sections: user.html -->
+
+{{define "title"}}User: {{.Username}}{{end}}
+{{define "content"}}
+<ul>
+  <li>Username: {{.Username}}</li>
+  <li>Name: {{.Name}}</li>
+</ul>
+{{end}}
