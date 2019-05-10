@@ -1,0 +1,16 @@
+<!-- Listing 7.14  A form with a multiple value file-upload field -->
+
+<!doctype html>
+<html>
+  <head>
+    <title>File Upload</title>
+  </head>
+  <body>
+    <form action="/" method="POST" enctype="multipart/form-data">
+      <label for="files">File:</label>
+      <input type="file" name="files" id="files" multiple>
+      <br>
+      <button type="submit" name="submit">Submit</button>
+    </form>
+  </body>
+</html>
